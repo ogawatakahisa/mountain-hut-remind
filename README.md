@@ -42,21 +42,13 @@ https://docs.google.com/spreadsheets/d/1sW6vYq-gZIcRsv2j5MCcpIxTkj-QvUHOOJOPyBA8
 3. 送迎場所ごとにグループ化
 
 ### 例
-a
+予約表
+![EACA8E8E-EB80-4EA3-BD10-8B4EBE239E91_4_5005_c](https://github.com/user-attachments/assets/1466c9a8-53d7-4e24-9e7b-485b79739f5a)
+![C6D623EA-0E3E-437B-9F0B-03E3E2271546](https://github.com/user-attachments/assets/9ba4713a-3485-4ef1-915e-1d0ac4f109fc)
+
+![6539334F-F4D6-4423-A920-FD124DA6E2EB_4_5005_c](https://github.com/user-attachments/assets/17652df1-a01c-4707-a8d3-e4cc12b7163d)
 
 
----
-
-## 通知されるメッセージ例と意味
-
-- `〇〇は送迎はありません。`  
-  → 指定された日付の送迎が存在しません。
-
-- `◇◆ 詳細をクラウド備考欄で確認下さい。`  
-  → 送迎場所が「その他」の場合に表示。スプレッドシートの「備考欄」を確認してください。
-
-- `◇◆ 他にも送迎が必要な可能性があります。クラウド下段を確認して下さい。`  
-  → スプレッドシートの下部（例：41行目以降）に記載された情報を確認するよう促します。
 
 ---
 
