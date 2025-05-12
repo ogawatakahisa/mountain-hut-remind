@@ -6,7 +6,7 @@
 予約表（Googleスプレッドシート）に入力された送迎情報を、LINEで自動的に通知・検索できるようにします。
 
 📄 連携スプレッドシート:  
-https://docs.google.com/spreadsheets/d/11E6ft1fjxalekGDz8Bb8imyNseENS1OCgQODkUwnctw/edit?usp=drive_link
+https://docs.google.com/spreadsheets/d/1sW6vYq-gZIcRsv2j5MCcpIxTkj-QvUHOOJOPyBA8rfU/edit?usp=drive_link
 
 ## 主な機能
 
