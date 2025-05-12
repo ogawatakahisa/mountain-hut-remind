@@ -1,0 +1,34 @@
+267行目
+  // console.log("reduceの動作確認"+JSON.stringify(dataArray, null, 2));
+  const locationGroups = dataArray.reduce((acc, entry) => {
+    let locationString = entry.location.toString();  // 明示的に文字列に変換
+    if (!acc[locationString]) acc[locationString] = [];
+    acc[locationString].push(entry);
+
+    /** reduceメソッドについて
+     * reduceメソッド===配列のすべての要素を一つの累積結果にまとめる（https://note.com/nepia_infinity/n/nc0d9c95f93bb）
+     * 配列に対してのみ。（配列の中にオブジェクトはで可能）
+     * dataArray.reduce((acc, entry)
+     * ↓
+     * 配列dataArrayを一要素entryずつ累積して新しい配列accを作成してそれをlocationGroupsに入れる
+     * 
+     * 例
+     * dataArray = [
+     * { location: "東京駅", name: "山田", membernum: "3", men: 2, women: 1 },
+     * { location: "東京駅", name: "鈴木", membernum: "5", men: 3, women: 2 },
+     * { location: "名古屋駅", name: "田中", membernum: "4", men: 2, women: 2 },
+     * ]; 
+     * ↓reduce後
+     * locationGroups = {
+     * "東京駅": [
+     *     { location: "東京駅", name: "山田", membernum: "3", men: 2, women: 1 },
+     *     { location: "東京駅", name: "鈴木", membernum: "5", men: 3, women: 2 }
+     *   ],
+     *   "名古屋駅": [
+     *     { location: "名古屋駅", name: "田中", membernum: "4", men: 2, women: 2 }
+     *   ]
+     * };
+     */
+    // for分とかでも代用はできるんだけどね
+    return acc;
+  }, {});
